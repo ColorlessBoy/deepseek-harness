@@ -1,0 +1,21 @@
+{
+  "name": "dsh-profile-web",
+  "private": true,
+  "dependencies": {
+    "dsh-find-plugin": "^0.3.7",
+    "dsh-profile-plugin-switch": "github:cynch18/plugin-switch#3f13f7a7e1c995f38e80f1af8c206ff7bb749329",
+    "dshmarket": "^1.46.1"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "dsh-find-plugin",
+        "dsh-profile-plugin-switch",
+        "dshmarket"
+      ],
+      "patchReload": "live"
+    }
+  }
+}
