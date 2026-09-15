@@ -5,7 +5,7 @@
     "@yolk_vat-y/dsh-project-memory": "^0.5.5",
     "dsh-better-sidebar": "^0.19.1",
     "dsh-find-plugin": "^0.3.7",
-    "dsh-opencode-go": "github:ColorlessBoy/dsh-opencode-go#3d00cdae2f078b512f71d5fe8b6c1e994576d404",
+    "dsh-opencode-go": "github:ColorlessBoy/dsh-opencode-go#47e24266219fbd060d71917fda5442f9933f897f",
     "dsh-profile-plugin-switch": "github:cynch18/plugin-switch#3f13f7a7e1c995f38e80f1af8c206ff7bb749329",
     "dshmarket": "^1.47.0"
   },

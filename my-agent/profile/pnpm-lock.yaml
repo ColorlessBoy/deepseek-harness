@@ -18,8 +18,8 @@ importers:
         specifier: ^0.3.7
         version: 0.3.7
       dsh-opencode-go:
-        specifier: github:ColorlessBoy/dsh-opencode-go#3d00cdae2f078b512f71d5fe8b6c1e994576d404
-        version: https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/3d00cdae2f078b512f71d5fe8b6c1e994576d404
+        specifier: github:ColorlessBoy/dsh-opencode-go#47e24266219fbd060d71917fda5442f9933f897f
+        version: https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/47e24266219fbd060d71917fda5442f9933f897f
       dsh-profile-plugin-switch:
         specifier: github:cynch18/plugin-switch#3f13f7a7e1c995f38e80f1af8c206ff7bb749329
         version: https://codeload.github.com/cynch18/plugin-switch/tar.gz/3f13f7a7e1c995f38e80f1af8c206ff7bb749329
@@ -594,8 +594,8 @@ packages:
       '@deepseek-ai/cordis': ^4.0.1
       '@deepseek-ai/dsh-tools': ^0.1.0-rc.6
 
-  dsh-opencode-go@https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/3d00cdae2f078b512f71d5fe8b6c1e994576d404:
-    resolution: {gitHosted: true, integrity: sha512-4WmtP1+4C6h8CBD1t7ru3Exc7leXjtTsXKPzUxgBXvxQg2EaYlnnogOoDg4YNL5U9X/K7Td4LFhsyV9b0pp21w==, tarball: https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/3d00cdae2f078b512f71d5fe8b6c1e994576d404}
+  dsh-opencode-go@https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/47e24266219fbd060d71917fda5442f9933f897f:
+    resolution: {gitHosted: true, integrity: sha512-musSglBJiqdwAbe10MEt6SOMX+6IEGXXQjm2SNOjq3xxer4J//8EZLF5m5t4HEcxEVmfiJEsQYFSQWpMTWFBCw==, tarball: https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/47e24266219fbd060d71917fda5442f9933f897f}
     version: 0.1.0
     engines: {node: ^22.19.0 || >=24.0.0}
     peerDependencies:
@@ -1475,7 +1475,7 @@ snapshots:
 
   dsh-find-plugin@0.3.7: {}
 
-  dsh-opencode-go@https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/3d00cdae2f078b512f71d5fe8b6c1e994576d404: {}
+  dsh-opencode-go@https://codeload.github.com/ColorlessBoy/dsh-opencode-go/tar.gz/47e24266219fbd060d71917fda5442f9933f897f: {}
 
   dsh-profile-plugin-switch@https://codeload.github.com/cynch18/plugin-switch/tar.gz/3f13f7a7e1c995f38e80f1af8c206ff7bb749329: {}
 
