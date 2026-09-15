@@ -3,3 +3,8 @@ packages:
 
 nodeLinker: hoisted
 autoInstallPeers: false
+allowBuilds:
+  node-pty: true
+minimumReleaseAgeExclude:
+  - dshmarket@1.47.0
+  - '@yolk_vat-y/dsh-project-memory@0.5.5'

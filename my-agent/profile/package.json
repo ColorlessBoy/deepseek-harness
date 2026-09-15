@@ -2,11 +2,12 @@
   "name": "dsh-profile-web",
   "private": true,
   "dependencies": {
-    "@xiaweiliang060035/dsh-opencode-go-usage": "github:ColorlessBoy/dsh-opencode-go-usage#31400964311685837a6cbab4d1013587bd81bfde",
+    "@yolk_vat-y/dsh-project-memory": "^0.5.5",
+    "dsh-better-sidebar": "^0.19.1",
     "dsh-find-plugin": "^0.3.7",
-    "dsh-opencode-go-live": "file:./plugins/dsh-opencode-go-live",
+    "dsh-opencode-go": "github:ColorlessBoy/dsh-opencode-go#c630ad26d23ad4c38914f710fb4ff8836a61bd1d",
     "dsh-profile-plugin-switch": "github:cynch18/plugin-switch#3f13f7a7e1c995f38e80f1af8c206ff7bb749329",
-    "dshmarket": "^1.46.1"
+    "dshmarket": "^1.47.0"
   },
   "dsh": {
     "profile": {
@@ -16,7 +17,9 @@
         "dsh-find-plugin",
         "dsh-profile-plugin-switch",
         "dshmarket",
-        "@xiaweiliang060035/dsh-opencode-go-usage"
+        "dsh-better-sidebar",
+        "dsh-opencode-go",
+        "@yolk_vat-y/dsh-project-memory"
       ],
       "patchReload": "live"
     }

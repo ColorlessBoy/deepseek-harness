@@ -1,12 +1,9 @@
 # Your patch layer for this dsh profile, applied after every bundle layer:
 # a top-level YAML array of loader patch entries (id-targeted config
 # overrides, disables, and insert lists; `!!js` expressions allowed).
-- insert:
-    - id: opencode-go-live
-      name: dsh-opencode-go-live
 
-# The usage widget's auto-discovery only matches the pre-release flat layout at
-# column 0, and refs live indented under `refs:`; name the pool explicitly.
-- id: opencode-go-usage
+# The pool is named explicitly: pool entries live indented under `refs:` and the
+# plugin's automatic scan only reads top-level lines.
+- id: opencode-go
   config:
     keyNames: [qq, gmail]

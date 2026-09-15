@@ -1,3 +1,6 @@
 # Profile runtime state and installed dependencies never belong in git.
 node_modules
 .dsh-market/
+
+# Fix snapshots (apply.sh writes these next to the patched file for rollback).
+*.pre-opencode-go-duplicate.bak
