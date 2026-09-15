@@ -1,0 +1,25 @@
+{
+  "name": "dsh-opencode-go-live",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Keep the OpenCode Go llm-pi-ai provider routes current from the live endpoint listing.",
+  "type": "module",
+  "license": "MIT",
+  "main": "runtime/index.js",
+  "exports": {
+    ".": "./runtime/index.js",
+    "./catalog.json": "./runtime/catalog.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "runtime",
+    "scripts",
+    "README.md"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "scripts": {
+    "generate-catalog": "node scripts/generate-catalog.mjs"
+  }
+}

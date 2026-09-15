@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@xiaweiliang060035/dsh-opencode-go-usage':
+        specifier: file:./plugins/dsh-opencode-go-usage
+        version: file:plugins/dsh-opencode-go-usage
       dsh-find-plugin:
         specifier: ^0.3.7
         version: 0.3.7
+      dsh-opencode-go-live:
+        specifier: file:./plugins/dsh-opencode-go-live
+        version: file:plugins/dsh-opencode-go-live
       dsh-profile-plugin-switch:
         specifier: github:cynch18/plugin-switch#3f13f7a7e1c995f38e80f1af8c206ff7bb749329
         version: https://codeload.github.com/cynch18/plugin-switch/tar.gz/3f13f7a7e1c995f38e80f1af8c206ff7bb749329
@@ -20,6 +26,14 @@ importers:
 
 packages:
 
+  '@xiaweiliang060035/dsh-opencode-go-usage@file:plugins/dsh-opencode-go-usage':
+    resolution: {directory: plugins/dsh-opencode-go-usage, type: directory}
+    peerDependencies:
+      '@deepseek-ai/cordis': ^4.0.1
+      '@deepseek-ai/dsh-credentials': ^0.1.0-rc.6
+      '@deepseek-ai/dsh-home-paths': ^0.1.0-rc.6
+      react: ^18.2.0
+
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
@@ -28,6 +42,10 @@ packages:
     peerDependencies:
       '@deepseek-ai/cordis': ^4.0.1
       '@deepseek-ai/dsh-tools': ^0.1.0-rc.6
+
+  dsh-opencode-go-live@file:plugins/dsh-opencode-go-live:
+    resolution: {directory: plugins/dsh-opencode-go-live, type: directory}
+    engines: {node: ^22.19.0 || >=24.0.0}
 
   dsh-profile-plugin-switch@https://codeload.github.com/cynch18/plugin-switch/tar.gz/3f13f7a7e1c995f38e80f1af8c206ff7bb749329:
     resolution: {gitHosted: true, integrity: sha512-Ve/qClg6F6lG0Gpg5GeK7rQOOaAWkYkDcK+8N37v+IUldfYgWCzEE8ndndAimu0AT+cFOhjw8yS9KaKpW0F8KA==, tarball: https://codeload.github.com/cynch18/plugin-switch/tar.gz/3f13f7a7e1c995f38e80f1af8c206ff7bb749329}
@@ -55,9 +73,13 @@ packages:
 
 snapshots:
 
+  '@xiaweiliang060035/dsh-opencode-go-usage@file:plugins/dsh-opencode-go-usage': {}
+
   argparse@2.0.1: {}
 
   dsh-find-plugin@0.3.7: {}
+
+  dsh-opencode-go-live@file:plugins/dsh-opencode-go-live: {}
 
   dsh-profile-plugin-switch@https://codeload.github.com/cynch18/plugin-switch/tar.gz/3f13f7a7e1c995f38e80f1af8c206ff7bb749329: {}
 

@@ -1,0 +1,3 @@
+# Profile runtime state and installed dependencies never belong in git.
+node_modules
+.dsh-market/
