@@ -33,7 +33,10 @@ my-agent/
 | `dshmarket` | `^1.46.1` | 插件市场（Settings 内一键装/升级） |
 | `dsh-find-plugin` | `^0.3.7` | 会话内搜索插件 |
 | `dsh-profile-plugin-switch` | `github:cynch18/plugin-switch#3f13f7a7e1c995f38e80f1af8c206ff7bb749329` | GUI 实时开关任意插件 |
+| `@xiaweiliang060035/dsh-opencode-go-usage` | `github:ColorlessBoy/dsh-opencode-go-usage#3140096`（[fork](https://github.com/ColorlessBoy/dsh-opencode-go-usage)，MIT） | OpenCode Go 多 key 用量卡片 + 点击切换生效 key |
 | `dsh-opencode-go-live` | 本地 `profile/plugins/`（`file:` 依赖） | 实时同步 OpenCode Go 模型列表，按官方协议拆到 `llm-pi-ai` 三条 route |
+
+用法插件是上游 [xiaweiliang060035/dsh-opencode-go-usage](https://github.com/xiaweiliang060035/dsh-opencode-go-usage) 的 fork，改进在 [colorlessboy/dsh-opencode-go-usage](https://github.com/ColorlessBoy/dsh-opencode-go-usage)：左下角、图标按钮、点卡片切换、点外部收起。依赖按 **commit 固定**（`#3140096`），上游更新时手动升 commit 再 `pnpm install`。
 
 完整候选清单见仓库根目录 [MY-AGENT-PLUGINS.md](../MY-AGENT-PLUGINS.md)。
 
